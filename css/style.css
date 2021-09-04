@@ -4,7 +4,7 @@
 10/12/14/16/20/24/30/36/44/52/62/74/86/98
 400/500/700
 
-#82c91e
+#228be6
 #868e96
 
 */
@@ -15,9 +15,21 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: Futura, sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  max-width: 50rem;
+  background-color: #228be6;
+  font-size: 2rem;
+  padding: 4rem;
+  color: aliceblue;
 }
