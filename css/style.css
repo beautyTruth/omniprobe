@@ -25,11 +25,3 @@ body {
   font-weight: 400;
   color: #555;
 }
-
-.test {
-  max-width: 50rem;
-  background-color: #228be6;
-  font-size: 2rem;
-  padding: 4rem;
-  color: aliceblue;
-}
