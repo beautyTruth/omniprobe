@@ -557,13 +557,41 @@
                 brains.
               </p>
               <form action="#" class="cta-form">
-                <label for="">full name</label>
-                <input type="text" placeholder="Noam Chomsky" />
-                <label for="">email address</label>
-                <input
-                  type="email"
-                  placeholder="peanutbutter@scotcheroos.com"
-                />
+                <div>
+                  <label for="full-name">full name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Noam Chomsky"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="peanutbutter@scotcheroos.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">where did you hear about us?</label>
+                  <select name="" id="select-where" required>
+                    <option value="">Please choose one option</option>
+                    <option value="friends">friends</option>
+                    <option value="brain stem">
+                      reptilian brain nightmare
+                    </option>
+                    <option value="hallucination">hallucination</option>
+                    <option value="auditory hallucination">
+                      auditory hallucination
+                    </option>
+                    <option value="stall at Burger King">Burger King</option>
+                    <option value="Instagram">Instagram</option>
+                  </select>
+                </div>
+
                 <button class="btn">Sign up now</button>
               </form>
             </div>
